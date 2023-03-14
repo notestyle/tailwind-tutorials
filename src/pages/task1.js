@@ -9,9 +9,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-full h-screen bg-slate-800">
-        <div className=" w-48 h-48 bg-red-600">
-          <div className="w-20 h-20 bg-white rounded-full "></div>
+      <div className="w-full h-screen bg-slate-800 flex justify-center pt-20">
+        <div className=" w-96 h-fit bg-slate-900 p-4 rounded-lg z-10 bg-opacity-40 backdrop-blur-lg">
+          <div className="animate-pulse flex flex-col gap-4 w-full h-full">
+            <div className="w-full flex gap-4">
+              <div className="w-20 h-20 bg-slate-200 rounded-full "></div>
+              <div className="w-[calc(100%-6rem)] flex flex-col gap-4">
+                <div className="w-full h-4 bg-slate-200 rounded-full "></div>
+                <div className="w-full h-4 bg-slate-200 rounded-full "></div>
+                <div className="w-full h-4 bg-slate-200 rounded-full "></div>
+              </div>
+            </div>
+            <div className="w-full h-4 bg-slate-200 rounded-full "></div>
+            <div className="w-full h-4 bg-slate-200 rounded-full "></div>
+            <div className="w-full h-4 bg-slate-200 rounded-full "></div>
+          </div>
         </div>
       </div>
     </>

@@ -9,30 +9,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-full bg-slate-800 px-20 py-8 flex flex-col gap-4">
-        <div className="text-white text-xl font-bold">Task1</div>
+      <div className="w-full min-h-screen bg-slate-800 px-20 py-8 flex flex-col gap-4">
+        <div className="text-white text-xl font-bold">Нэмэлт оноо</div>
         <img
           alt="task1"
-          src="/images/task1.png"
+          src="/images/more.png"
           className="w-full object-contain border border-white"
-        />
-        <div className="text-white text-xl font-bold">Task2</div>
-        <img
-          alt="task2"
-          src="/images/task2.png"
-          className="w-full  object-contain border border-white"
-        />
-        <div className="text-white text-xl font-bold">Task3</div>
-        <img
-          alt="task3"
-          src="/images/task3.png"
-          className="w-full object-contain border border-white"
-        />
-        <div className="text-white text-xl font-bold">Task4</div>
-        <img
-          alt="task4"
-          src="/images/task4.png"
-          className="w-full  object-contain border border-white"
         />
       </div>
     </>
