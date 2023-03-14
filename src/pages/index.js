@@ -9,7 +9,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div></div>
+      <div className="w-full h-screen bg-slate-800">
+        <div className=" w-48 h-48 bg-red-600">
+          <div className="w-20 h-20 bg-white rounded-full "></div>
+        </div>
+      </div>
     </>
   );
 }
