@@ -1,6 +1,17 @@
 import Head from "next/head";
 
 export default function Home() {
+  const tasks = [
+    "task1",
+    "task2",
+    "task3",
+    "task4",
+    "task5",
+    "task6",
+    "task7",
+    "task8",
+  ];
+
   return (
     <>
       <Head>
@@ -10,30 +21,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-full bg-slate-800 px-20 py-8 flex flex-col gap-4">
-        <div className="text-white text-xl font-bold">Task1</div>
-        <img
-          alt="task1"
-          src="/images/task1.png"
-          className="w-full object-contain border border-white"
-        />
-        <div className="text-white text-xl font-bold">Task2</div>
-        <img
-          alt="task2"
-          src="/images/task2.png"
-          className="w-full  object-contain border border-white"
-        />
-        <div className="text-white text-xl font-bold">Task3</div>
-        <img
-          alt="task3"
-          src="/images/task3.png"
-          className="w-full object-contain border border-white"
-        />
-        <div className="text-white text-xl font-bold">Task4</div>
-        <img
-          alt="task4"
-          src="/images/task4.png"
-          className="w-full  object-contain border border-white"
-        />
+        {tasks.map((row) => (
+          <>
+            <div className="text-white text-xl font-bold">{row}</div>
+            <img
+              alt={row}
+              src={`/images/${row}.png`}
+              className="w-1/2 object-contain border border-white"
+            />
+          </>
+        ))}
       </div>
     </>
   );
