@@ -1,16 +1,7 @@
 import Head from "next/head";
 
 export default function Home() {
-  const tasks = [
-    "task1",
-    "task2",
-    "task3",
-    "task4",
-    "task5",
-    "task6",
-    "task7",
-    "task8",
-  ];
+  const tasks = ["task1", "task2", "task3"];
 
   return (
     <>
