@@ -9,8 +9,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-full py-20 px-28 flex gap-4">
-        <div className="w-1/2 ">
+      <div className="w-full py-20 px-28 flex flex-col-reverse gap-4">
+        <div className="w-full ">
           <div className="text-sm font-medium text-slate-500 leading-4">
             Зуслангийн байшин
           </div>
@@ -57,24 +57,12 @@ export default function Home() {
             бид танд санал болгож байна.
           </div>
         </div>
-        <div className="w-1/2 flex flex-col gap-4">
+        <div className="w-full flex gap-4">
           <img
             src="/images/house1.jpg"
             alt="house"
             className="rounded w-full h-52 object-cover"
           />
-          <div className="w-full grid grid-cols-2 gap-4">
-            <img
-              src="/images/house2.jpg"
-              alt="house"
-              className="w-full rounded h-32 object-cover"
-            />
-            <img
-              src="/images/house3.jpg"
-              alt="house"
-              className="w-full rounded h-32 object-cover"
-            />
-          </div>
         </div>
       </div>
     </>
