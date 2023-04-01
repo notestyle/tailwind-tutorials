@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Header() {
@@ -16,9 +17,15 @@ export default function Header() {
         />
       </svg>
       <div className="flex gap-8 items-center">
-        <a href="#home">Home</a>
-        <a href="#project">Projects</a>
-        <a href="#contact">Contact</a>
+        <Link href="/#home" scroll={true}>
+          Home
+        </Link>
+        <Link href="/#project" scroll={true}>
+          Projects
+        </Link>
+        <Link href="/#contact" scroll={true}>
+          Contact
+        </Link>
       </div>
     </div>
   );

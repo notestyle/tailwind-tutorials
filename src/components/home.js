@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import More from "./more";
 
 export default function Home() {
   return (
@@ -29,6 +30,10 @@ export default function Home() {
           production-ready delivery. I truly understand the importance of good
           communication and being responsible.
         </div>
+        <button className="mt-8 px-4 py-1 bg-primary hover:bg-secondary rounded text-white">
+          More
+        </button>
+        <More />
       </div>
     </div>
   );
