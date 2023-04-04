@@ -61,8 +61,8 @@ export default function Index() {
             <h1 className="text-primary font-black text-3xl">Uguumur Oldokh</h1>
             <h2 className="text-secondary text-lg">Software Engineer</h2>
             <div className="text-slate-800">
-              I am a Software Engineer with over 5 years of experience in
-              Full-Stack software development and 3 years of experience in
+              I am a Software Engineer with over 6 years of experience in
+              Full-Stack software development and 4 years of experience in
               desktop application (.NET, Java) development. My favorite
               programming languages are javascript and python. Also, familiar
               with C# and java. I have worked in both startups and large
