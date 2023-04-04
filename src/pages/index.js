@@ -1,7 +1,3 @@
-import Contact from "@/components/contact";
-import Header from "@/components/header";
-import Home from "@/components/home";
-import Project from "@/components/project";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
