@@ -32,12 +32,18 @@ export default function SelectHero() {
 
   return (
     <>
-      <div className="text-2xl text-white col-span-4 text-center">
+      <div className="text-2xl text-white col-span-4 text-center ">
         Select your hero!
       </div>
-      <div className="w-full aspect-square rounded border border-white p-2 mix-blend-luminosity hover:mix-blend-normal transition-all ease-in-out duration-500">
-        <img src={data[0].img} alt={data[0].img} className="object-fit" />
-      </div>
+
+      {data.map((x, i) => (
+        <div
+          key={i}
+          className="w-full aspect-square rounded border border-white p-2 mix-blend-luminosity hover:mix-blend-normal transition-all ease-in-out duration-500"
+        >
+          <img src={x.img} alt={data[0].img} className="object-fit" />
+        </div>
+      ))}
     </>
   );
 }
