@@ -16,12 +16,11 @@ npm run dev
 
 ### Task
 
-1. доорх өнгөний тохиргоог `tailwind.config.js` файл дээр тохируулах
+Даалгавар хийхийн өмнө javascript -н array дээрх prototype-н нэг болох map() гэсэн функцийг харах хэрэгтэй.
 
-primary: "#245953",
-secondary: "#408E91",
-error: "#E49393",
-gray: "#D8D8D8",
-white: "#fafafa",
+map(x => ...) // ... оронд x буюу жагсаалтын нэг элементийг хэрхэн хувиргахаа бичнэ
+map((x, i) => ...) // ... x нь нэг элемент, i нь индекс юм
 
-2. `/components` фолдер дотор байгаа файлуудыг гүйцээж `index.js` дээр дуудах
+1. `/src/components/selectHero.js` component доторх баатруудын жагсаалтыг зурж харуулах
+
+![component](component.png)
