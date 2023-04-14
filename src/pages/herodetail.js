@@ -1,8 +1,8 @@
 import React from "react";
 
 const hero = {
-  name: "Pikachu",
-  img: "/images/...jpg",
+  img: "/images/uni.png",
+  name: "Unemo",
   power: 100,
   health: 500,
   speed: 10,
