@@ -80,35 +80,42 @@ export default function Index() {
             <Image
               src="/images/background-min.png"
               alt="profile"
-              className="object-cover object-top w-full aspect-square rounded-xl -scale-x-100 hover:-skew-y-2 transition ease-in-out duration-300 border-spacing-6 hover:border-8 border-secondary shadow-2xl hover:shadow-secondary shadow-secondary"
+              className="object-cover -hue-rotate-180 hover:hue-rotate-0 object-top mix-blend-luminosity w-full aspect-square rounded-xl transition ease-in-out duration-300 border-spacing-6 shadow-2xl hover:shadow-secondary shadow-secondary"
               width={200}
               height={200}
             />
             <Image
               src="/images/background-min.png"
               alt="profile"
-              className="object-cover object-top w-full aspect-square rounded-xl -scale-x-100 hover:-skew-y-2 transition ease-in-out duration-300 border-spacing-6 hover:border-8 border-secondary shadow-2xl hover:shadow-secondary shadow-secondary"
+              className="object-cover -hue-rotate-180 hover:hue-rotate-0 object-top mix-blend-luminosity w-full aspect-square rounded-xl transition ease-in-out duration-300 border-spacing-6 shadow-2xl hover:shadow-secondary shadow-secondary"
               width={200}
               height={200}
             />
             <Image
               src="/images/background-min.png"
               alt="profile"
-              className="object-cover object-top w-full aspect-square rounded-xl -scale-x-100 hover:-skew-y-2 transition ease-in-out duration-300 border-spacing-6 hover:border-8 border-secondary shadow-2xl hover:shadow-secondary shadow-secondary"
+              className="object-cover -hue-rotate-180 hover:hue-rotate-0 object-top mix-blend-luminosity w-full aspect-square rounded-xl transition ease-in-out duration-300 border-spacing-6 shadow-2xl hover:shadow-secondary shadow-secondary"
               width={200}
               height={200}
             />
             <Image
               src="/images/background-min.png"
               alt="profile"
-              className="object-cover object-top w-full aspect-square rounded-xl -scale-x-100 hover:-skew-y-2 transition ease-in-out duration-300 border-spacing-6 hover:border-8 border-secondary shadow-2xl hover:shadow-secondary shadow-secondary"
+              className="object-cover -hue-rotate-180 hover:hue-rotate-0 object-top mix-blend-luminosity w-full aspect-square rounded-xl transition ease-in-out duration-300 border-spacing-6 shadow-2xl hover:shadow-secondary shadow-secondary"
               width={200}
               height={200}
             />
             <Image
               src="/images/background-min.png"
               alt="profile"
-              className="object-cover object-top w-full aspect-square rounded-xl -scale-x-100 hover:-skew-y-2 transition ease-in-out duration-300 border-spacing-6 hover:border-8 border-secondary shadow-2xl hover:shadow-secondary shadow-secondary"
+              className="object-cover -hue-rotate-180 hover:hue-rotate-0 object-top mix-blend-luminosity w-full aspect-square rounded-xl transition ease-in-out duration-300 border-spacing-6 shadow-2xl hover:shadow-secondary shadow-secondary"
+              width={200}
+              height={200}
+            />
+            <Image
+              src="/images/background-min.png"
+              alt="profile"
+              className="object-cover -hue-rotate-180 hover:hue-rotate-0 object-top mix-blend-luminosity w-full aspect-square rounded-xl transition ease-in-out duration-300 border-spacing-6 shadow-2xl hover:shadow-secondary shadow-secondary"
               width={200}
               height={200}
             />
