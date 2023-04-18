@@ -3,7 +3,7 @@ export default function HeroDetail() {
   // coin => 10000
   const hero = {
     img: "/images/uni.png",
-    name: "Unemo",
+    name: "Unicorn",
     power: 100,
     speed: 10,
     health: 1000,
@@ -71,7 +71,7 @@ export default function HeroDetail() {
           </svg>
           {coin}
         </div>
-        <button className="bg-pink-500 rounded-lg text-white hover:animate-bounce ">
+        <button className="bg-pink-500 rounded-lg text-white hover:animate-bounce py-1 px-4">
           Upgrade
         </button>
       </div>
