@@ -16,4 +16,4 @@ npm run dev
 
 ### Task
 
-1. upgrade hiihed coin hasagddag component hiih
+1. `herodetail.js` дээр upgrade hiihed coin hasagddag component hiih
