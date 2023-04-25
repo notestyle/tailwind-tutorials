@@ -1,61 +1,8 @@
 import GameBoard from "@/components/gameBoard";
 import SelectHero from "@/components/selectHero";
 import Head from "next/head";
-import { useState } from "react";
 
 export default function Index() {
-  const [heroes, setHeroes] = useState([
-    {
-      img: "/images/uni.png",
-      name: "Unemo",
-      power: 100,
-      speed: 10,
-      health: 1000,
-    },
-    {
-      img: "/images/chameleon.png",
-      name: "Greeny",
-      power: 200,
-      speed: 3,
-      health: 2000,
-    },
-    {
-      img: "/images/chick.png",
-      name: "Chicky",
-      power: 10,
-      speed: 50,
-      health: 900,
-    },
-    {
-      img: "/images/kitty.png",
-      name: "Super cat",
-      power: 100,
-      speed: 10,
-      health: 1000,
-    },
-    {
-      img: "/images/panda.png",
-      name: "Sleepy",
-      power: 100,
-      speed: 10,
-      health: 1000,
-    },
-    {
-      img: "/images/police.png",
-      name: "Angry police",
-      power: 100,
-      speed: 10,
-      health: 1000,
-    },
-    {
-      img: "/images/unicorn.png",
-      name: "Queen",
-      power: 100,
-      speed: 10,
-      health: 1000,
-    },
-  ]);
-
   return (
     <>
       <Head>
@@ -69,7 +16,7 @@ export default function Index() {
           Cute fight
         </div>
         <GameBoard>
-          <SelectHero data={heroes} />
+          <SelectHero />
         </GameBoard>
       </div>
     </>
