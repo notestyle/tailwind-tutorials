@@ -10,7 +10,7 @@ export default function SelectHero() {
       .then((result) => setHeroes(result.data));
   }
 
-  useEffect(() => getData(), []);
+  useEffect(() => getData(), []); // React hook
 
   return (
     <>
