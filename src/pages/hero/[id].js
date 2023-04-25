@@ -6,6 +6,9 @@ export default function HeroDetail() {
   const [hero, setHero] = useState({});
   const router = useRouter();
   console.log(router.query.id);
+
+  // http://192.168.88.120:8080/hero/4 -> 4 -н оронд нь router.query.id байна.
+
   return (
     <>
       <div className="w-full min-h-screen bg-slate-900 py-20 px-40">
