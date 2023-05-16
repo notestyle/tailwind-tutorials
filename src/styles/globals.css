@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-bg{
+    @apply bg-indigo-500 rounded bg-opacity-50 backdrop-blur-md drop-shadow-md
+}
